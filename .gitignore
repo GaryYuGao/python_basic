@@ -1,0 +1,113 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv / virtualenv
+.python-version
+
+# Environments
+.env
+.env.*
+!.env.example
+
+# Spyder / Rope / IDE
+.spyderproject
+.spyproject
+.ropeproject
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# mkdocs / Sphinx
+/site
+docs/_build/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+
+# Profiling
+.prof
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+.DS_Store
+Thumbs.db
